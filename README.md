@@ -55,6 +55,6 @@ Este es un bot para Telegram desarrollado en Java utilizando Maven. El bot prese
 3. **Interactuar con los botones:**
     - Haz clic en los botones proporcionados por el bot para continuar la aventura.
 
-![bot](https://github.com/Fabo2303/telegram-bot-cat/assets/115574987/54eb035c-fe44-4d8c-867b-c1c1bf8653ec)
+![bot](https://github.com/Fabo2303/telegram-cat-bot/assets/115574987/609d24c8-d5e6-453d-8d15-059fd355c9f0)
 
 Si tienes alguna pregunta o puedes mejorar este README, ¡no dudes en contribuir!
