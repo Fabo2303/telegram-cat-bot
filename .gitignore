@@ -1,0 +1,18 @@
+# Carpeta de dependencias (node_modules, por ejemplo)
+node_modules/
+
+# Archivos de configuración locales
+.vscode/
+
+# Archivos de construcción compilados
+/dist/
+/out/
+
+# Archivos de caché o logs
+/.cache/
+/.log/
+
+# Otros archivos generados automáticamente
+.DS_Store
+*.log
+*.bak
