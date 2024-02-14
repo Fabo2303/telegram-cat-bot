@@ -41,7 +41,7 @@ Este es un bot para Telegram desarrollado en Java utilizando Maven. El bot prese
 
 1. **Clonar el repositorio:**
     ```bash
-    git clone https://url-del-repositorio.git
+    git clone git@github.com:Fabo2303/telegram-cat-bot.git
     ```
 
 ## Uso
