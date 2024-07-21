@@ -2,7 +2,6 @@ package org.example;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import static org.example.TelegramBotContent.*;
 

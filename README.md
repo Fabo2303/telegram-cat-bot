@@ -58,4 +58,10 @@ Este es un bot para Telegram desarrollado en Java utilizando Maven. El bot prese
 
 ![bot](https://github.com/Fabo2303/telegram-cat-bot/assets/115574987/609d24c8-d5e6-453d-8d15-059fd355c9f0)
 
-Si tienes alguna pregunta o puedes mejorar este README, ¡no dudes en contribuir!
+### SONARQUBE
+
+Este proyecto fue actualizado para incluir un análisis de código estático utilizando SonarQube.
+Faltó la parte de test unitarios, por lo que la cobertura de código es baja.
+Se adjunta la imagen de la ejecución del análisis de SonarQube.
+
+![sonarqube](https://github.com/user-attachments/assets/a70ae783-9a89-4c88-968c-e880a31b3ee5)
