@@ -11,12 +11,6 @@ Este es un bot para Telegram desarrollado en Java utilizando Maven. El bot prese
 - Telegram
 - IDE o editor de código
 
-### Link del chatbot en telegram
-
-https://t.me/maratonFb23_bot
-
-Puede demorar unos minutos debido a que el backend es gratuito y se apaga después de un tiempo de inactividad.
-
 ## Configuración
 
 1. **Crear un bot en Telegram:**
