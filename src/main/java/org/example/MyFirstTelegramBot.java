@@ -10,8 +10,8 @@ import java.util.Map;
 public class MyFirstTelegramBot extends MultiSessionTelegramBot {
 
     public static final Dotenv dotenv = Dotenv.load();
-    public static final String NAME = dotenv.get("NAME_BOT");
-    public static final String TOKEN = dotenv.get("TOKEN_BOT");
+    public static final String NAME = dotenv.get("TELEGRAM_BOT_NAME");
+    public static final String TOKEN = dotenv.get("TELEGRAM_BOT_TOKEN");
     private boolean state = false;
     private String user = "";
 
@@ -40,7 +40,7 @@ public class MyFirstTelegramBot extends MultiSessionTelegramBot {
 
         if (button.equals(Buttons.STEP_BUTTON_1.name())) {
             addUserGlory(20);
-            sendPhotoMessageAsync("step_2_pic.jpg");
+            sendPhotoMessageAsync("step_2_pic.webp");
             sendTextMessageAsync(STEP_2_TEXT,
                     Map.of("¡Tomar una salchicha! +20 de fama", Buttons.STEP_BUTTON_2.name(), "¡Tomar un pescado! +20 de fama",
                             Buttons.STEP_BUTTON_2.name(), "¡Tirar una lata de pepinillos! +20 de fama", Buttons.STEP_BUTTON_2.name()));
@@ -48,13 +48,13 @@ public class MyFirstTelegramBot extends MultiSessionTelegramBot {
 
         if (button.equals(Buttons.STEP_BUTTON_2.name())) {
             addUserGlory(20);
-            sendPhotoMessageAsync("step_3_pic.jpg");
+            sendPhotoMessageAsync("step_3_pic.webp");
             sendTextMessageAsync(STEP_3_TEXT, Map.of("¡Hackear al robot aspiradora!", Buttons.STEP_BUTTON_3.name()));
         }
 
         if (button.equals(Buttons.STEP_BUTTON_3.name())) {
             addUserGlory(30);
-            sendPhotoMessageAsync("step_4_pic.jpg");
+            sendPhotoMessageAsync("step_4_pic.webp");
             sendTextMessageAsync(STEP_4_TEXT,
                     Map.of("Enviar al robot aspirador a por comida! +30 de fama", Buttons.STEP_BUTTON_4.name(),
                             "Dar un paseo en el robot aspirador! +30 de fama", Buttons.STEP_BUTTON_4.name(),
@@ -63,32 +63,32 @@ public class MyFirstTelegramBot extends MultiSessionTelegramBot {
 
         if (button.equals(Buttons.STEP_BUTTON_4.name())) {
             addUserGlory(30);
-            sendPhotoMessageAsync("step_5_pic.jpg");
+            sendPhotoMessageAsync("step_5_pic.webp");
             sendTextMessageAsync(STEP_5_TEXT, Map.of("Colocarse la GoPro +40 puntos de fama", Buttons.STEP_BUTTON_5.name()));
         }
 
         if (button.equals(Buttons.STEP_BUTTON_5.name())) {
             addUserGlory(40);
-            sendPhotoMessageAsync("step_6_pic.jpg");
+            sendPhotoMessageAsync("step_6_pic.webp");
             sendTextMessageAsync(STEP_6_TEXT, Map.of("Encender la GoPro +40 de fama", Buttons.STEP_BUTTON_6.name()));
         }
 
         if (button.equals(Buttons.STEP_BUTTON_6.name())) {
             addUserGlory(40);
-            sendPhotoMessageAsync("step_7_pic.jpg");
+            sendPhotoMessageAsync("step_7_pic.webp");
             sendTextMessageAsync(STEP_7_TEXT, Map.of("Hackear la computadora +50 de fama", Buttons.STEP_BUTTON_7.name()));
         }
 
         if (button.equals(Buttons.STEP_BUTTON_7.name())) {
             addUserGlory(50);
-            sendPhotoMessageAsync("step_8_pic.jpg");
+            sendPhotoMessageAsync("step_8_pic.webp");
             sendTextMessageAsync(STEP_8_TEXT, Map.of("Ver Final", Buttons.STEP_BUTTON_8.name()));
         }
 
         if (button.equals(Buttons.STEP_BUTTON_8.name())) {
             addUserGlory(50);
             setUserGlory(280);
-            sendPhotoMessageAsync("final_pic.jpg");
+            sendPhotoMessageAsync("final_pic.webp");
             sendTextMessageAsync(FINAL_TEXT);
             sendTextMessageAsync(goodbye());
         }
